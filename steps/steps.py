@@ -11,7 +11,7 @@ st.set_page_config(page_title="Personal Health Dashboard", layout="wide")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    df=pd.read_csv(r'C:\Users\USER\Documents\dataset\steps_tracker_dataset.csv')
+    df=pd.read_csv('steps_tracker_dataset.csv')
     df['date'] = pd.to_datetime(df['date'], dayfirst=True)
     return df
 
