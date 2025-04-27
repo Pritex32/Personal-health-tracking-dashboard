@@ -6,13 +6,13 @@ Dashboard link[https://personal-health-tracking-dashboard-h8bxrvpeuqp3awxbuu9nfb
 ## Objective:
 Build an interactive Streamlit dashboard to help individuals track and analyze their daily health habits including steps, sleep, mood, water intake, calories burned, and distance walked.
 ## Features explainations:
-1.steps:The total number of steps taken by a person that day.
-2.distance_km:The total distance walked or run in kilometers, often derived from the step count.
-3.calories_burned:The estimated number of calories the person burned throughout the day (via walking, exercise, etc.).
-4.active_minutes:The number of minutes the person spent doing moderate to vigorous physical activity.
-5.sleep_hours:Number of hours the person slept the previous night.
-6.water_intake_liters : How many liters of water the person drank that day.
-7.mood: Categorical (could be strings like 'happy', 'tired', 'stressed', or numerical scores like 1–5)
+- 1.steps:The total number of steps taken by a person that day.
+- 2.distance_km:The total distance walked or run in kilometers, often derived from the step count.
+- 3.calories_burned:The estimated number of calories the person burned throughout the day (via walking, exercise, etc.).
+- 4.active_minutes:The number of minutes the person spent doing moderate to vigorous physical activity.
+- 5.sleep_hours:Number of hours the person slept the previous night.
+- 6.water_intake_liters : How many liters of water the person drank that day.
+- 7.mood: Categorical (could be strings like 'happy', 'tired', 'stressed', or numerical scores like 1–5)
 
 ## ❓ Problem Statement
 Many individuals struggle to maintain healthy habits due to a lack of awareness of how their daily activities, hydration, sleep, and emotional states are connected. Without clear insights, it's difficult to form effective routines that support overall wellbeing.
